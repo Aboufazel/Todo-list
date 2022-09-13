@@ -1,6 +1,7 @@
 
 body{
     font-family: Inter;
+    background: var(--background-color);
 }
 
 
@@ -33,4 +34,22 @@ body{
     color: var(--thired-color);
     font-weight: 900;
     font-size: 17px;
+}
+
+.action_btn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: var(--background-color);
+    font-weight: bold;
+    padding: 8px 20px 8px 20px ;
+    background: var(--primary-color);
+    border-radius: 12px;
+    box-shadow: 0 0 10px 2px var(--box-shadow);
+}
+
+.action_btn:hover{
+    background: var(--thired-color);
+    cursor: pointer;
+    color: var(--secondary-color);
 }
