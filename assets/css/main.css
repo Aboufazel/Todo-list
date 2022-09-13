@@ -33,7 +33,7 @@ body{
 .profileTitle{
     color: var(--thired-color);
     font-weight: 900;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .action_btn{
