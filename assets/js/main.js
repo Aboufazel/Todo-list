@@ -40,6 +40,14 @@ const render = db =>{
 
 };
 
+addTodo.addEventListener("click" , ()=>{
+   alert("hello abbas")
+});
+
+deleteAllTodo.addEventListener("click" , ()=>{
+    todoItems.innerHTML = '';
+})
+
 
 render(database);
 
