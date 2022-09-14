@@ -30,10 +30,10 @@
         <div class="col-xl-6">
             <div class="row">
                 <div class="col-xl-6 d-flex justify-content-end">
-                    <div class="action_btn"><i class="fa-solid fa-plus"></i>Add Todo Work</div>
+                    <div class="action_btn" id="addTodo"><i class="fa-solid fa-plus"></i>Add Todo Work</div>
                 </div>
                 <div class="col-xl-6 d-flex justify-content-start">
-                    <div class="action_btn"><i class="fa-solid fa-trash"></i>Delete All Todo</div>
+                    <div class="action_btn" id="deleteAllTodo"><i class="fa-solid fa-trash"></i>Delete All Todo</div>
                 </div>
             </div>
         </div>
@@ -52,24 +52,10 @@
             <div class="row">
                 <div class="todo_box todo_border">
                     <h3 class="todo_title">Todo List</h3>
-                    <div class="todo_items">
-                        <div class="row px-3 mt-1">
-                            <div class="col-xl-12">
-                                <div class="delete_btn"><i class="fa-solid fa-trash"></i>Delete This Task</div>
-                            </div>
-                        </div>
-                        <div class="row px-3 mt-3">
-                            <div class="col-xl-3 d-flex justify-content-center align-items-center">
-                                <div class="task_name">1</div>
-                            </div>
-                            <div class="col-xl-6 d-flex justify-content-center align-items-center">
-                                <div class="task_name">taskname</div>
-                            </div>
-                            <div class="col-xl-3 d-flex justify-content-center align-items-center">
-                                <div class="done_btn">Done</div>
-                            </div>
-                        </div>
+                    <div id="todo">
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -77,18 +63,8 @@
            <div class="row">
                <div class="todo_box done_border">
                    <h3 class="done_title">Done List</h3>
-                   <div class="done_items">
-                       <div class="row px-3">
-                           <div class="col-xl-3 d-flex justify-content-center align-items-center">
-                               <div class="task_name">1</div>
-                           </div>
-                           <div class="col-xl-6 d-flex justify-content-center align-items-center">
-                               <div class="task_name">taskname</div>
-                           </div>
-                           <div class="col-xl-3 d-flex justify-content-center align-items-center">
-                               <div class="done_color">Done</div>
-                           </div>
-                       </div>
+                   <div  id="done">
+
                    </div>
                </div>
            </div>
